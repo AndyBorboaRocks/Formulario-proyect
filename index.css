@@ -1,1 +1,60 @@
+body {
+    font-family: 'Impact', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
 
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+main{
+    padding: 20px;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-buttons {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 110px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+}
